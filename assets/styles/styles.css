@@ -2,6 +2,7 @@
   --search: #e5e5e5;
   --sidebar: #0e263b;
   --bell: #ff8f00;
+  --top-bar: #1b72e8;
 }
 
 
@@ -50,4 +51,13 @@ header{
   overflow-x: hidden;
   padding-top: 20px;
   background-color: var(--sidebar);
+}
+
+#content{
+  margin-left: 150px;
+}
+
+#content .top-bar{
+  height: 120px;
+  background-color: var(--top-bar);
 }
