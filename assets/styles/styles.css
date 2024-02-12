@@ -1,3 +1,11 @@
+:root{
+  --search: #e5e5e5;
+  --sidebar: #0e263b;
+  --bell: #ff8f00;
+}
+
+
+
 /*********************
         GENERALS
  ********************/
@@ -9,10 +17,37 @@ header{
   height: 70px;
 }
 
-
-
-
+.bell i{
+  color: var(--bell);
+}
 
 /*********************
         GENERALS
  ********************/
+
+/*********************
+        HEADER
+ ********************/
+.searchbar{
+  background-color: var(--search) ;
+}
+
+.searchbar input{
+  border: none;
+  background-color: inherit;
+}
+
+/*********************
+        /HEADER
+ ********************/
+
+.sidebar{
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: var(--sidebar);
+}
