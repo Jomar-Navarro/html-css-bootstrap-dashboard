@@ -19,9 +19,7 @@ body{
   border: 1px dashed black;
 }
 
-header{
-  height: 70px;
-}
+
 
 .bell i{
   color: var(--bell);
@@ -43,6 +41,10 @@ ul li{
 /*********************
         HEADER
  ********************/
+header{
+  height: 70px;
+}
+
 .searchbar{
   background-color: var(--search) ;
 }
@@ -52,42 +54,27 @@ ul li{
   background-color: inherit;
 }
 
+.logo img:last-child{
+  width: 50px;
+  height: auto;
+}
+
 /*********************
         /HEADER
  ********************/
 
 .sidebar{
-  max-width: 100%;
-  height: 100vh;
-  width: 90px;
+  width: 100px;
   padding-top: 20px;
   background-color: var(--sidebar);
+  background-image: url(../img/sidebar-bg.png);
 }
 
-.content .top-bar{
-  height: 120px;
+.main-content,
+.sidebar{
+  height: calc(100vh - 70px);
+}
+
+.top-bar{
   background-color: var(--top-bar);
-}
-
-
-.box{
-  border: 1px solid #d2d2d2;
-  border-radius: 5px;
-}
-
-.box h2{
-  border-bottom: 1px solid #d2d2d2;
-}
-
-.icons i{
-  border: 1px solid #6c757d;
-  color: var(--icons);
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.right{
-  width: 100%;
-  height: 100vh;
-  overflow-y: hidden;
 }
