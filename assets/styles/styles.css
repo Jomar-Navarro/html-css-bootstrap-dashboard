@@ -78,3 +78,23 @@ header{
 .top-bar{
   background-color: var(--top-bar);
 }
+
+
+/*********************
+      RESPONSIVE
+ ********************/
+
+@media screen and (min-width: 576px) {
+  #offcanvasRight{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #offcanvasRight{
+    width: 50%;
+  }
+}
+/*********************
+        RESPONSIVE
+ ********************/
